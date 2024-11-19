@@ -1,0 +1,14 @@
+if __name__ == '__main__':
+    n = int(input())
+    arr = map(int, input().split())
+    arr1 = list(arr)
+    max1 = max(arr1)
+
+    arr2=[]
+    for i in arr1:
+        if i == max1:
+            pass
+        else:
+            arr2.append(i)
+
+    print(max(arr2))
